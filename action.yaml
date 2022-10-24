@@ -15,8 +15,7 @@ inputs:
   repository:
     description: 'The name of the repository.'
     required: true
-    default: ${{ github.repository }}
-
+    
   retain_days:
     description: 'The number of days.'
     required: true
